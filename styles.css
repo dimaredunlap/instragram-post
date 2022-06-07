@@ -1,0 +1,53 @@
+body{
+    background: #c0b2b2;
+    margin: 0;
+}
+.post-header{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    object-fit: contain;
+    width: 100%;
+}
+.container{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+}
+.border{
+    border: 2px black
+}
+.comment{
+    padding: 30px;
+}
+#commentSection{
+    padding-top: 10px;
+}
+h2, h3{
+    margin: 0;
+}
+#ellipsis{
+    size: 100%;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.left{
+    display:flex;
+    justify-content: flex-start;
+}
+#bookmark{
+    padding-right: 0px;
+    margin-right: 20px;
+    float: right;
+}
+#heart{
+    padding-right: 6px;
+}
+#commentIcon{
+    padding-right: 6px;
+}
